@@ -1,0 +1,31 @@
+> python -m pytest -v
+================= test session starts ==================
+platform win32 -- Python 3.14.10, pytest-9.2.0, pluggy-1.7.0
+rootdir: C:\...\automated-posting
+plugins: anyio-4.16.0
+collected 22 items
+
+tests/test_posting.py::test_invalid_messages_are_rejected[body0-must not exceed 200 characters] PASSED [  4%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body1-none found] PASSED [  9%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body2-found 2] PASSED [ 13%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body3-must start with http] PASSED [ 18%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body4-invalid domain] PASSED [ 22%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body5-not an IP address] PASSED [ 27%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body6-invalid port] PASSED [ 31%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body7-must not be empty] PASSED [ 36%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body8-Field required] PASSED [ 40%]
+tests/test_posting.py::test_invalid_messages_are_rejected[body9-valid string] PASSED [ 45%]
+tests/test_posting.py::test_trailing_punctuation_is_not_part_of_the_link PASSED [ 50%]
+tests/test_posting.py::test_one_failure_does_not_stop_other_platforms PASSED [ 54%]
+tests/test_posting.py::test_all_failures_report_success_false PASSED [ 59%]
+tests/test_posting.py::test_unconfigured_platform_reports_missing_variables PASSED [ 63%]
+tests/test_posting.py::test_telegram_public_channel PASSED [ 68%]
+tests/test_posting.py::test_telegram_error_does_not_leak_token PASSED [ 72%]
+tests/test_posting.py::test_discord_webhook PASSED [ 77%]
+tests/test_posting.py::test_mastodon_status_and_error PASSED [ 81%]
+tests/test_posting.py::test_bluesky_session_then_post PASSED [ 86%]
+tests/test_posting.py::test_bluesky_facet_uses_utf8_byte_offsets PASSED [ 90%]
+tests/test_posting.py::test_github_gist PASSED    [ 95%]
+tests/test_posting.py::test_timeout_is_reported PASSED [100%]
+
+============ 22 passed in 2.40s ===========

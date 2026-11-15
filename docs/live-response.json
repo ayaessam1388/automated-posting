@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "summary": {
+    "total": 5,
+    "succeeded": 5,
+    "failed": 0
+  },
+  "results": [
+    {
+      "platform": "Telegram",
+      "status": "success",
+      "posted_url": "https://t.me/aya138_posts/6",
+      "public_access": true,
+      "date": "2026-11-15",
+      "time": "18:30:23",
+      "error": null
+    },
+    {
+      "platform": "Discord",
+      "status": "success",
+      "posted_url": "https://discord.com/channels/1571580798925021225/1571580799512215704/1571593225846784010",
+      "public_access": false,
+      "date": "2026-11-15",
+      "time": "18:30:23",
+      "error": null
+    },
+    {
+      "platform": "Mastodon",
+      "status": "success",
+      "posted_url": "https://mastodon.social/@aya138/117621877896869912",
+      "public_access": true,
+      "date": "2026-11-15",
+      "time": "18:30:23",
+      "error": null
+    },
+    {
+      "platform": "Bluesky",
+      "status": "success",
+      "posted_url": "https://bsky.app/profile/aya138.bsky.social/post/3n2enhgjreo26",
+      "public_access": true,
+      "date": "2026-11-15",
+      "time": "18:30:26",
+      "error": null
+    },
+    {
+      "platform": "GitHub Gist",
+      "status": "success",
+      "posted_url": "https://gist.github.com/ayaessam1388/8b76a605951a8691557764b6986e0493",
+      "public_access": true,
+      "date": "2026-11-15",
+      "time": "18:30:24",
+      "error": null
+    }
+  ]
+}
